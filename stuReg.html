@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="stuValid.php" name="stu" method="post">
+        <h1>Student Registration Form using Table in HTML</h1>
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>User name</td>
+                <td><input type="text" name="un" id="t1" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pd" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Confirm Paswword</td>
+                <td><input type="password" name="cpd" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type="email" name="eid" maxlength="30"/></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td> <input type="text" name="mnb" maxlength="10"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" value="Clear Form" id="res" class="btn" />
+                    <input type="submit" value="Validate" class="btn"  />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
